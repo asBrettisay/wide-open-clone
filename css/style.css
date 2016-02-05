@@ -49,6 +49,10 @@ body {
   width: 100%;
 }
 
+.nav-bar ul {
+  display: none;
+}
+
 .hamburger {
   width: 20%;
   height: 75px;
@@ -180,7 +184,6 @@ body {
 
 .how-it-works {
   width: 100%;
-  height: 1200px;
   text-align: center;
   color: #8f8787;
   font-family: 'Open Sans';
@@ -200,7 +203,7 @@ body {
   width: 80%;
   height: 100%;
   display: block;
-  padding: 0 25px;
+  padding: 75px 25px;
   margin: 0 auto 50px auto;
 }
 
@@ -519,7 +522,12 @@ footer p {
     }
 
     .help-card {
-      display: block;
+      display: inline-block;
+      padding: 30px 1em;
+    }
+
+    #big {
+      height: 250px;
     }
 
     .we-work-with div {
@@ -553,15 +561,27 @@ footer p {
 
     .newsletter {
       height: 500px;
+      padding: 0;
+      padding-top: 150px;
+      position: relative;
     }
 
     .newsletter img {
-      position: relative;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+    }
+
+    .newsletter-form {
+      width: 60%;
+      margin-top: 25px;
     }
 
     footer {
       padding-left: 50px;
     }
+
+
 
 
 }
